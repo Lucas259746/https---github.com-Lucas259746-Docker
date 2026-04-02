@@ -7,6 +7,9 @@ docker-run
 docker-run-image
 ![alt-text](image/docker-run-image.png)
 
+docker-commande-simple
+![alt-text](image/docker-commande-simple.png)
+
 docker-result
 ![alt-text](image/docker_result.png)
 ![alt-text](image/docker_result_changed.png)

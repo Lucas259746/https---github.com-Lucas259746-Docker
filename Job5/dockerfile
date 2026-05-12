@@ -1,0 +1,14 @@
+# Utilisation d'une image PHP avec Apache
+FROM php:8.2-apache
+
+# Copier les fichiers du jeu dans le dossier web par défaut d'Apache
+COPY index.html /var/www/html/
+COPY save.php /var/www/html/
+COPY results.json /var/www/html/
+
+# Donner les permissions d'écriture à Apache pour le fichier JSON
+RUN chown www-data:www-data /var/www/html/results.json \
+    && chmod 664 /var/www/html/results.json
+
+# Exposer le port 80
+EXPOSE 80

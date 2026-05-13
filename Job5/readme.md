@@ -18,6 +18,7 @@ tic-tac-toe
 
 results partie
 ![alt-text](image/inspect-game-results.png)
+![alt-text](image/game-results.png)
 
 check pour voir le contenue du container
 ![alt-text](image/contenue-conteneur.png)
